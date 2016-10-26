@@ -1,0 +1,47 @@
+/* clear default html */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f3f3f3;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#navegacao {
+	background: #FFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 48px;
+}
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+/* Menu */
+#logo {
+	float: left;
+}
+nav {
+	float: right;
+	padding: 10px 0;
+}
+/* Links menu */
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+a:link {
+	color: #838383;
+}
+a:visited {
+	color: #838383;
+}
+a:hover {
+	background-color: #b9c941;
+	color: #FFF;
+}
+
+/* Classes */
+.verde {
+	color: #B9C941;
+}
